@@ -17,11 +17,11 @@ function randomgenerator(min , max) {
 }
 
 function thmain() {
-    window.open("https://reenphygeorge.github.io/TinkerHub-SJCET/");
+    window.open("https://tinkerhubsjcet.github.io/linktree/");
 }
 
 let btn_submit = document.getElementsByClassName("btn-submit");
 
 function fn() {
-    window.open("https://www.instagram.com/tinkerhubsjcet", "_blank");
+    
 }
