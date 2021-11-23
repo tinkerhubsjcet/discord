@@ -1,0 +1,61 @@
+.logo {
+    width: 150px;
+    border-radius: 100px;
+    position: relative;
+    left: 5px;
+}
+
+.logo-text {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.card {
+    border-radius: 20px;
+    width: 400px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.icon {
+    width: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .logo {
+        margin-top: 130px !important;
+    }
+}
+
+.form-control {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-select {
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-submit {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.14);
+}
+
+.btn-submit :hover {
+    color: white !important;
+}
