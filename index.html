@@ -40,7 +40,7 @@
           <h5 class="logo-text">TINKERHUB SJCET</h5>
         </div>
       </div>
-      <form>
+      <form name="submit-to-google-sheet">
         <div class="row mt-5">
           <div
             class="d-flex justify-content-center col-lg-12 col-md-12 col-sm-12"
@@ -49,6 +49,7 @@
               <div class="card-body">
                 <input
                   type="text"
+                  name="Name"
                   id="name"
                   class="form-control"
                   placeholder="Name"
@@ -71,6 +72,7 @@
               <div class="card-body">
                 <input
                   type="email"
+                  name="Email"
                   class="form-control"
                   placeholder="Mail ID"
                   aria-label="Name"
@@ -92,6 +94,7 @@
               <div class="card-body">
                 <input
                   type="text"
+                  name="Phone"
                   class="form-control"
                   placeholder="Phone No"
                   aria-label="Ph-Name"
@@ -112,7 +115,7 @@
           >
             <div class="card">
               <div class="card-body">
-                <select class="form-select" required>
+                <select class="form-select" name="College" required>
                   <option selected disabled value="">College</option>
                   <option value="1">SJCET</option>
                   <option value="2">Other</option>
@@ -130,9 +133,7 @@
             mt-3
           "
         >
-          <button type="submit" class="btn btn-submit" onsubmit="fun(event)">
-            Submit
-          </button>
+          <button type="submit" class="btn btn-submit">Submit</button>
         </div>
       </form>
     </div>
@@ -142,5 +143,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="app.js"></script>
+    <script src="form.js"></script>
   </body>
 </html>
