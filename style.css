@@ -34,6 +34,9 @@
   width: 40px;
 }
 
+body {
+  max-height: 100vh;
+}
 @media screen and (max-width: 480px) {
   .card {
     width: 320px;
@@ -103,6 +106,8 @@ select:focus {
   padding: 30px;
   padding-bottom: 25px;
 
+  position: absolute;
+
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
@@ -117,9 +122,18 @@ select:focus {
   width: 30vw;
 }
 
+body {
+  height: 100vh;
+}
+
 .containexr {
   margin-left: 10px;
   margin-right: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .custom-btn {

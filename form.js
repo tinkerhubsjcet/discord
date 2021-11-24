@@ -52,7 +52,7 @@ form.addEventListener("submit", (e) => {
       successGreen();
       //setTimeout(initialButtonState, 3000);
       console.log("Success");
-      setTimeout(window.location.replace(discordInviteURL), 1000);
+      //setTimeout(window.location.replace(discordInviteURL), 1000);
     })
     .catch((error) => {
       console.log(error);
