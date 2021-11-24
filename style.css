@@ -5,6 +5,10 @@
     left: 5px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .logo-text {
     font-family: 'Roboto', sans-serif;
     color: white;
