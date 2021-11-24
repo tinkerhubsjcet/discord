@@ -75,6 +75,8 @@ input:focus {
   outline-width: 0 !important;
 }
 
-.form-control:focus {
+.form-control:focus,
+select:focus {
   box-shadow: none;
+  outline: none;
 }
