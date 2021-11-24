@@ -5,7 +5,7 @@
     left: 5px;
 }
 
-.logo:hover {
+.logo :hover {
     cursor: pointer;
 }
 
