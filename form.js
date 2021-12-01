@@ -1,7 +1,7 @@
 const discordInviteURL = "https://discordapp.com/channels/@me/862597954308669452/915574796425773077";
 
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbxQmJyyTUuGHv0c9X2GBH2donNUd9r0ekQUS1G8fldBC0JrBCUUMKSQyfQuMn8Y6OJ4Xg/exec";
+  "https://script.google.com/macros/s/AKfycbynThUg6lbWYP3lI-CVwTo3Yyx78KswiWrkf9uYwjnjjaGy59j_dyfLLW7n2jrDDkG6SA/exec";
 
 
 const form = document.forms["submit-to-google-sheet"];
