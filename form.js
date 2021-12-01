@@ -1,4 +1,4 @@
-const discordInviteURL = "https://discordapp.com/channels/@me/862597954308669452/915574796425773077";
+const discordInviteURL = "https://discord.gg/dpm6EkJXW8";
 
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbxXN0KfDIoKG7ce1KWv_pwr6_W7BBcwJFzQqeS1z3XVLne9KPf9zhEfAHsy2vcVg7ep5Q/exec";
